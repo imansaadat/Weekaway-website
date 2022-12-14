@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth scroll-pt-14;
+  }
+  body {
+    @apply font-Poppins capitalize;
+  }
+  a {
+    @apply duration-300 inline-block;
+  }
+  .btn {
+    @apply px-4 py-2 border bg-gradient-to-r from-dark-blue to-light-blue text-white;
+  }
+}
+

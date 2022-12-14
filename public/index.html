@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <!-- Css File -->
+  <link rel="stylesheet" href="./build/main.css" />
+  <!-- Title -->
+  <title>WEEKAWAY</title>
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <div class="bg-white py-3">
+    <div class="max-w-[1240px] mx-auto px-4">
+      <div class="flex justify-between items-center">
+        <!-- Logo -->
+        <h1 class="flex items-center text-gray-700 text-3xl">
+          <i class="fa-regular fa-comment-dots text-dark-blue"></i>
+          <span class="uppercase text-xl ml-1 font-serif">WEEKAWAY</span>
+        </h1>
+        <!-- right -->
+        <div class="flex items-center">
+          <div class="hidden md:flex items-center gap-2 mr-7">
+            <i class="fa-regular fa-clock text-dark-blue"></i>
+            <p>9AM - 5AM</p>
+          </div>
+          <div class="hidden md:flex items-center gap-2 mr-7">
+            <i class="fa-solid fa-phone text-dark-blue"></i>
+            <p>1-888-817-1234</p>
+          </div>
+          <button class="btn">Get a Free Quote</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header -->
+  <header id="header" class=" bg-gray-700/90 absolute w-full z-10">
+    <div class="max-w-[1240px] mx-auto px-4">
+      <div>
+        <!-- Nav -->
+        <nav class="flex justify-between items-center py-3">
+          <!-- Nav List -->
+          <ul class="hidden md:flex items-center">
+            <li><a href="#home" class="mr-5 text-white hover:text-light-blue">Home</a></li>
+            <li><a href="#gallery" class="mr-5 text-white hover:text-light-blue">Gallery</a></li>
+            <li><a href="#deals" class="mr-5 text-white hover:text-light-blue">Deals</a></li>
+            <li><a href="#contact" class="mr-5 text-white hover:text-light-blue">Contact</a></li>
+          </ul>
+          <!-- Social Media -->
+          <div>
+            <a href="" class="ml-4 text-white hover:text-light-blue"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" class="ml-4 text-white hover:text-light-blue"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="ml-4 text-white hover:text-light-blue"><i class="fa-brands fa-google-plus-g"></i></i></a>
+            <a href="" class="ml-4 text-white hover:text-light-blue"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+          <!-- Hamburger Menu -->
+          <button id="icon-menu" class="block md:hidden text-2xl cursor-pointer text-white">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+          class="md:hidden fixed top-0 left-[-100%] w-full h-full z-30 bg-slate-700/90 flex justify-center duration-300 items-center">
+          <button id="close-icon" class="text-3xl cursor-pointer text-white absolute top-3 right-4">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="text-center">
+            <li><a href="#home" class="my-2 text-white hover:text-light-blue">Home</a></li>
+            <li><a href="#gallery" class="my-2 text-white hover:text-light-blue">Gallery</a></li>
+            <li><a href="#deals" class="my-2 text-white hover:text-light-blue">Deals</a></li>
+            <li><a href="#contact" class="my-2 text-white hover:text-light-blue">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- main -->
+  <main>
+    <!-- Hero -->
+    <section id="home" class="bg-hero bg-center bg-cover h-[90vh] w-full flex items-center justify-center">
+      <div class="max-w-[1240px] mx-auto px-4 w-full">
+        <!-- Hero text -->
+        <div class="max-w-2xl bg-slate-400/50 p-6">
+          <h2 class="text-white text-2xl md:text-4xl font-bold mb-2">Find Your Special Trip</h2>
+          <h3 class="text-white text-2xl md:text-4xl italic font-bold mb-4">With Weekaway</h3>
+          <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae doloribus totam dicta ab
+            ratione. Explicabo
+            eveniet dolor, omnis in recusandae temporibus suscipit cum nihil officia deserunt possimus saepe praesentium
+            accusamus!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Activities -->
+    <section class="mt-[-60px]">
+      <div class="max-w-[1240px] mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-2">
+          <div class="relative">
+            <h3
+              class="text-white font-semibold text-2xl absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+              Resorts</h3>
+            <img class="border-4 border-white shadow-lg w-full h-full object-cover"
+              src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              alt="">
+          </div>
+          <div class="relative">
+            <h3
+              class="text-white font-semibold text-2xl absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+              Resorts</h3>
+            <img class="border-4 border-white shadow-lg w-full h-full object-cover"
+              src="https://images.unsplash.com/photo-1599640842225-85d111c60e6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+              alt="">
+          </div>
+          <div class="relative">
+            <h3
+              class="text-white font-semibold text-2xl absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+              Resorts</h3>
+            <img class="border-4 border-white shadow-lg w-full h-full object-cover"
+              src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Booking -->
+    <section id="deals" class="pt-14 pb-10">
+      <div class="max-w-[1240px] mx-auto px-4">
+        <form action="">
+          <div class="grid lg:grid-cols-6 gap-4">
+            <div class="lg:col-span-2 flex flex-col">
+              <label class="mb-1" for="">Destination</label>
+              <select name="" id="" class="border rounded-md p-2">
+                <option value="">Grande Antigua</option>
+                <option value="">Key West</option>
+                <option value="">Maldives</option>
+                <option value="">Cozumel</option>
+              </select>
+            </div>
+            <div class="flex flex-col">
+              <label class="mb-1" for="">Check-In</label>
+              <input type='date' class='border rounded-md p-2' />
+            </div>
+            <div class="flex flex-col">
+              <label class="mb-1" for="">Check-Out</label>
+              <input type='date' class='border rounded-md p-2' />
+            </div>
+            <div class="lg:col-span-2 flex flex-col">
+              <label class="mb-1" for="">Search</label>
+              <button class="btn">Rates & Availabilities</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Gallery -->
+    <section id="gallery" class="py-10">
+      <div class="max-w-[1240px] mx-auto px-4">
+        <h2 class="text-xl md:text-2xl text-center font-semibold mb-4 text-gray-700">Gallery</h2>
+        <div class="grid md:grid-cols-5 gap-3">
+          <div class='md:col-span-3 col-span-2 row-span-2'>
+            <img class='big-img w-full h-full object-cover'
+              src="https://images.unsplash.com/photo-1615571022219-eb45cf7faa9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80"
+              alt="" />
+          </div>
+          <div class="opacity-60">
+            <img class='small-img w-full h-full object-cover cursor-pointer'
+              src="https://images.unsplash.com/photo-1594398901394-4e34939a4fd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+              alt="" />
+          </div>
+          <div class="opacity-60">
+            <img class='small-img w-full h-full object-cover cursor-pointer'
+              src="https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+              alt="" />
+          </div>
+          <div class="opacity-60">
+            <img class='small-img w-full h-full object-cover cursor-pointer'
+              src="https://images.unsplash.com/photo-1578530332818-6ba472e67b9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80"
+              alt="" />
+          </div>
+          <div class="opacity-60">
+            <img class='small-img w-full h-full object-cover cursor-pointer'
+              src="https://images.unsplash.com/photo-1613553507747-5f8d62ad5904?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="py-10">
+      <div class="max-w-[1240px] mx-auto px-4">
+        <div class="text-center mb-6">
+          <h2 class="font-semibold text-xl md:text-2xl mb-1 text-gray-700">Send us <span class="lowercase">a</span>
+            message</h2>
+          <p class="text-gray-700 text-lg">We're standing by!</p>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-5">
+          <!-- Contact Image -->
+          <div>
+            <img
+              src='https://images.unsplash.com/photo-1538964173425-93884d739596?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80'
+              class='w-full object-cover max-h-[530px] h-[200px] lg:h-full' alt='' />
+          </div>
+          <div>
+            <form action="">
+              <div class="grid md:grid-cols-2 gap-4">
+                <div class="mb-2">
+                  <input type="text" class="border p-2 w-full" placeholder='First'>
+                </div>
+                <div class="mb-2">
+                  <input type="text" class="border p-2 w-full" placeholder='Last'>
+                </div>
+                <div class="mb-2">
+                  <input type="email" class="border p-2 w-full" placeholder='Email'>
+                </div>
+                <div class="mb-2">
+                  <input type="tel" class="border p-2 w-full" placeholder='Phone'>
+                </div>
+                <div class="md:col-span-2 mb-2">
+                  <input type="text" class="border p-2 w-full" placeholder='Address'>
+                </div>
+                <div class="md:col-span-2 mb-2">
+                  <textarea class="border p-2 w-full resize-none" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="md:col-span-2 mb-2">
+                  <input type="submit" class="btn border p-2 w-full cursor-pointer" value="Submit" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="max-w-[1240px] mx-auto px-4">
+      <div class="flex items-center justify-center text-gray-700 text-3xl border-t-2 border-gray-200 py-5">
+        <i class="fa-regular fa-comment-dots text-dark-blue"></i>
+        <span class="uppercase text-xl ml-1"><strong class="capitalize">WEEKAWAY</strong></span>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>
